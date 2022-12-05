@@ -76,6 +76,7 @@ console.log(name)
 const cognome = name
 
 // cognome = "Zarmiento"
+// typeError: Assignment to constant variable.
 
 
 /* ESERCIZIO 6
