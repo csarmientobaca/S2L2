@@ -98,6 +98,14 @@ console.log("Il risultato della sottrazione è: " + sottrazione)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 name1 = "john"
-name2 = "Jhon"
+name2 = "John"
 
 console.log("name1 e name2 sono uguali?: " + (name1 === name2))
+
+if (name1 !== name2) {
+  lower = name2.toLowerCase()
+  console.log("ora entrambi sono uguali: " + "name1: " + name1 + " name2: " + name2.toLowerCase())
+
+}
+
+console.log("name2: " + name2)
