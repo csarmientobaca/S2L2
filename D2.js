@@ -13,21 +13,21 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-abc = "string" //--> Le strigns sono alphanumeriche ossia della a alla z e da 0 a 9, sono usate con le virgolette, 
+let abc = "string" //--> Le strigns sono alphanumeriche ossia della a alla z e da 0 a 9, sono usate con le virgolette, 
 console.log(abc)
 
 
-num = 09345//   --> Datatype numerico, sono i numeri da 0 a 9 e posso essere infinity.
+let num = 09345//   --> Datatype numerico, sono i numeri da 0 a 9 e posso essere infinity.
 console.log(num)
 
-bool = true
+let bool = true
 console.log(bool)//-->Solo puo essere vero o falso
 console.log(!bool)
 
-vuoto = null    //-->è vuoto, non ha un valore dentro della variabile
+let vuoto = null    //-->è vuoto, non ha un valore dentro della variabile
 console.log(vuoto)
 
-und = undefined //-->che non ha un valore o non è stato dichiarato
+let und = undefined //-->che non ha un valore o non è stato dichiarato
 console.log(und)
 
 /* ESERCIZIO 2
