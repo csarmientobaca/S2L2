@@ -57,8 +57,8 @@ console.log("Il risultato della somma è: " + somma)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let x
-x = 12
+let x = 12
+
 
 console.log(x)
 
@@ -85,8 +85,8 @@ const cognome = name
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-sottrazione = x - 4
-console.log("Il risultato della sottrazione è: " + sottrazione)
+
+console.log("Il risultato della sottrazione è: " + (4 - x))
 
 
 
@@ -104,7 +104,7 @@ name2 = "John"
 console.log(name1 + " e " + name2 + " sono uguali?: " + (name1 === name2))
 
 if (name1 !== name2) {
-  lower = name2.toLowerCase()
+  name2 = name2.toLowerCase()
   console.log("ora entrambi sono uguali: " + "name1: " + name1 + " name2: " + name2.toLowerCase())
 
 }
